@@ -1,5 +1,8 @@
 #!/bin/bash
 
-echo -n "Enter your name:"
-read NAME
-echo "Hello $NAME !!"
+while test true
+do
+  echo -n "Enter your name:"
+  read NAME
+  echo "Hello $NAME !!"
+done
